@@ -1,6 +1,6 @@
 ---
 title: Hello, World!
-description: Bar
+description: My first blog post
 tags: [web]
 dates:
   published: 2026-03-11
