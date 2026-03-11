@@ -31,7 +31,7 @@ import remarkToc from "remark-toc";
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://gekkota.pages.dev",
+	site: "https://site.gekkota.workers.dev",
 	prefetch: true,
 
 	markdown: {
