@@ -44,7 +44,9 @@ There's more than just hobbies that I find enjoyment in.
 - Franz Ferdinand
 - White Lies
 - Arctic Monkeys
+- The Strokes
 - The Smiths
+- The Doors
 - Joy Division
 - New Order
 - Depeche Mode
@@ -52,6 +54,14 @@ There's more than just hobbies that I find enjoyment in.
 - Daft Punk
 - Chase & Status
 - Kraftwerk
+
+### :mag: Others
+
+- Cars
+- Motorcycles
+- Video Editing
+- Photo Editing
+- UI/UX Design
 
 <!-- Languages -->
 
