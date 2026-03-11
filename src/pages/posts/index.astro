@@ -11,8 +11,8 @@ const posts = await getCollection("posts");
 			<ul>
 				{
 					posts.map(({ id, data: { dates, title, tags } }) => (
-						<li class="flex space-x-[2ch]">
-							<time class="ml-[1ch]">{dates.published.toDateString()}</time>
+						<li class="flex flex-col space-x-[2ch] sm:flex-row">
+							<time class="sm:ml-[1ch]">{dates.published.toDateString()}</time>
 							<a href={`/posts/${id}`}>{title}</a>
 							<div class="flex gap-x-[1ch]">
 								{tags && tags.map((tag) => <span is-="badge">{tag}</span>)}

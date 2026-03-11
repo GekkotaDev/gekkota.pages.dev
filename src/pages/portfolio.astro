@@ -12,10 +12,10 @@ const posts = await getCollection("portfolio");
 				{
 					posts.map(({ data: { name, description, href } }) => (
 						<li class="flex space-x-[1ch]">
-							<a {href} class="ml-[1ch]">
-								{name}
-							</a>
-							<p>{description}</p>
+							<p class="ml-[1ch]">
+								<a {href}>{name}</a>
+								{description}
+							</p>
 						</li>
 					))
 				}
