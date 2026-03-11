@@ -1,0 +1,28 @@
+---
+import PageLayout from "~/layouts/PageLayout.astro";
+
+import { getCollection } from "astro:content";
+import { render } from "astro:content";
+
+const contacts = await getCollection("contacts");
+const home = await getCollection("home");
+const { Content } = await render(home[0]);
+---
+
+<PageLayout class="flex min-h-screen flex-col">
+	<main is="view-content" class="space-y-[2ch] text-justify">
+		<Content />
+
+		<div class="flex space-x-[1ch]">
+			{
+				contacts.map(({ id, data: { href, icon } }) => (
+					<a href={href} class="hidden sm:inline">
+						<span aria-label={id} class="select-none">
+							{icon}
+						</span>
+					</a>
+				))
+			}
+		</div>
+	</main>
+</PageLayout>

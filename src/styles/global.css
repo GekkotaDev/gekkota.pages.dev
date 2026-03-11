@@ -1,0 +1,76 @@
+@layer base, utils, components;
+
+@import "tailwindcss";
+
+@import "@fontsource-variable/fira-code";
+/* @import "@fontsource/noto-color-emoji"; */
+
+@import "@webtui/css/base.css";
+
+/* Utils */
+@import "@webtui/css/utils/box.css";
+
+/* Components */
+@import "@webtui/css/components/accordion.css";
+@import "@webtui/css/components/badge.css";
+@import "@webtui/css/components/button.css";
+@import "@webtui/css/components/checkbox.css";
+@import "@webtui/css/components/dialog.css";
+@import "@webtui/css/components/input.css";
+@import "@webtui/css/components/popover.css";
+/* @import "@webtui/css/components/pre.css"; */
+@import "@webtui/css/components/progress.css";
+@import "@webtui/css/components/radio.css";
+@import "@webtui/css/components/range.css";
+@import "@webtui/css/components/separator.css";
+@import "@webtui/css/components/spinner.css";
+@import "@webtui/css/components/switch.css";
+@import "@webtui/css/components/table.css";
+@import "@webtui/css/components/textarea.css";
+@import "@webtui/css/components/tooltip.css";
+@import "@webtui/css/components/typography.css";
+@import "@webtui/css/components/view.css";
+
+@import "@webtui/theme-gruvbox";
+
+@import "@webtui/plugin-nf";
+
+@layer base {
+	:root {
+		--font-family: "Fira Code Variable", monospace, "Symbols Nerd Font";
+	}
+
+	h1::before {
+		content: "#";
+		padding-right: 1ch;
+	}
+
+	h2::before {
+		content: "##";
+		padding-right: 1ch;
+	}
+
+	h3::before {
+		content: "###";
+		padding-right: 1ch;
+	}
+
+	h4::before {
+		content: "####";
+		padding-right: 1ch;
+	}
+
+	h5::before {
+		content: "#####";
+		padding-right: 1ch;
+	}
+
+	h6::before {
+		content: "######";
+		padding-right: 1ch;
+	}
+
+	p {
+		max-width: 80ch;
+	}
+}

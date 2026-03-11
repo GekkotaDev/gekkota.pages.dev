@@ -1,0 +1,37 @@
+---
+import "~/styles/global.css";
+import "@fontsource/noto-color-emoji";
+
+interface Props {
+	class?: string;
+	title?: string | undefined;
+	description?: string | undefined;
+}
+
+const {
+	class: classname = "",
+	title = "gekkotadev",
+	description = "Jeremy's personal site.",
+} = Astro.props;
+---
+
+<html
+	lang="en"
+	data-theme="github-light"
+	data-webtui-theme="gruvbox-dark-soft"
+	data-theme="github-light"
+>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" property="og:description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+	</head>
+	<body class={`${classname}`}>
+		<slot />
+	</body>
+</html>

@@ -1,0 +1,25 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import PageLayout from "~/layouts/PageLayout.astro";
+
+const posts = await getCollection("portfolio");
+---
+
+<PageLayout>
+	<div is="view" class="mx-[1ch] my-[1ch] grow sm:mx-[4ch]">
+		<main is="view-content" class="space-y-[2ch] text-justify">
+			<ul>
+				{
+					posts.map(({ data: { name, description, href } }) => (
+						<li class="flex space-x-[1ch]">
+							<a {href} class="ml-[1ch]">
+								{name}
+							</a>
+							<p>{description}</p>
+						</li>
+					))
+				}
+			</ul>
+		</main>
+	</div>
+</PageLayout>

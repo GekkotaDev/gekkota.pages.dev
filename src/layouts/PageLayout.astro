@@ -1,0 +1,82 @@
+---
+import { getCollection } from "astro:content";
+import RootLayout from "~/layouts/RootLayout.astro";
+
+const contacts = await getCollection("contacts");
+---
+
+<RootLayout class="mb-[4ch] flex min-h-screen flex-col">
+	<nav
+		box-="round"
+		class="flex w-full flex-row justify-between space-x-[4ch] overflow-x-auto bg-(--gb-dark-bg0) px-[2ch] sm:fixed"
+	>
+		<a href="/">
+			<p class="hover before:content-['::<>'] hover:underline">gekkotadev</p>
+		</a>
+
+		<ul class="hidden flex-row space-x-6 overflow-x-auto sm:flex">
+			<li class="before:content-['']">
+				<a href="/posts" class="text-(--gb-dark-fg0)">posts</a>
+			</li>
+			<li class="before:content-['']">
+				<a href="/portfolio" class="text-(--gb-dark-fg0)">portfolio</a>
+			</li>
+			<li class="before:content-['']">
+				<a href="/about" class="text-(--gb-dark-fg0)">about</a>
+			</li>
+		</ul>
+
+		<!-- <input placeholder="Search" /> -->
+	</nav>
+
+	<div is="view" class="mx-[1ch] my-[1ch] grow sm:mx-[4ch] sm:mt-[8ch]">
+		<slot />
+	</div>
+
+	<footer
+		is="view"
+		class="fixed bottom-0 flex w-full flex-row space-x-[1ch] bg-(--gb-dark-bg2) pl-[1ch]"
+	>
+		<details is-="popover" position-="top right" class="sm:hidden">
+			<summary>☰</summary>
+			<div class="popover-content space-y-[1ch] bg-(--gb-dark-bg1) px-[1ch]">
+				<ul class="flex flex-col space-x-6">
+					<li class="before:content-[''] hover:underline">
+						<a href="/posts">posts</a>
+					</li>
+					<li class="before:content-[''] hover:underline">
+						<a href="/portfolio">portfolio</a>
+					</li>
+					<li class="before:content-[''] hover:underline">
+						<a href="/about">about</a>
+					</li>
+				</ul>
+			</div>
+		</details>
+
+		<details is-="popover" position-="top right" class="sm:hidden">
+			<summary></summary>
+			<div class="popover-content space-y-[1ch] bg-(--gb-dark-bg1) px-[1ch]">
+				<ul class="flex flex-col space-x-6">
+					{
+						contacts.map(({ id, data: { href } }) => (
+							<li class="before:content-[''] hover:underline">
+								<a href={href}>{id}</a>
+							</li>
+						))
+					}
+				</ul>
+			</div>
+		</details>
+
+		{
+			contacts.map(({ id, data: { href, icon } }) => (
+				<a href={href} class="hidden sm:inline">
+					<span aria-label={id} class="select-none">
+						{icon}
+					</span>
+				</a>
+			))
+		}
+	</footer>
+</RootLayout>

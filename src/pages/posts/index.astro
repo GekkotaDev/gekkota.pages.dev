@@ -1,0 +1,26 @@
+---
+import { type CollectionEntry, getCollection, render } from "astro:content";
+import PageLayout from "~/layouts/PageLayout.astro";
+
+const posts = await getCollection("posts");
+---
+
+<PageLayout>
+	<div is="view" class="mx-[1ch] my-[1ch] grow sm:mx-[4ch]">
+		<main is="view-content" class="space-y-[2ch] text-justify">
+			<ul>
+				{
+					posts.map(({ id, data: { dates, title, tags } }) => (
+						<li class="flex space-x-[2ch]">
+							<time class="ml-[1ch]">{dates.published.toDateString()}</time>
+							<a href={`posts/${id}`}>{title}</a>
+							<div class="flex gap-x-[1ch]">
+								{tags && tags.map((tag) => <span is-="badge">{tag}</span>)}
+							</div>
+						</li>
+					))
+				}
+			</ul>
+		</main>
+	</div>
+</PageLayout>
