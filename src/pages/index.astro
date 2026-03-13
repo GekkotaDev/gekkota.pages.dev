@@ -16,7 +16,7 @@ const { Content } = await render(home[0]);
 		<div class="flex space-x-[1ch]">
 			{
 				contacts.map(({ id, data: { href, icon } }) => (
-					<a href={href} class="hidden sm:inline">
+					<a href={href}>
 						<span aria-label={id} class="select-none">
 							{icon}
 						</span>
