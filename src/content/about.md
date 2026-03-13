@@ -40,20 +40,20 @@ There's more than just hobbies that I find enjoyment in.
 
 ### :headphones: Bands
 
-- Queens of the Stone Age
-- Franz Ferdinand
-- White Lies
-- Arctic Monkeys
-- The Strokes
-- The Smiths
-- The Doors
-- Joy Division
-- New Order
-- Depeche Mode
-- LCD Soundsystem
-- Daft Punk
-- Chase & Status
-- Kraftwerk
+- [Queens of the Stone Age](https://music.youtube.com/watch?v=nzJ5BpWGJR0)
+- [Franz Ferdinand](https://music.youtube.com/watch?v=N8V4WOrs7WA)
+- [White Lies](https://music.youtube.com/watch?v=x6Z6eabeLio)
+- [Arctic Monkeys](https://music.youtube.com/watch?v=zMupng6KQeE)
+- [The Strokes](https://music.youtube.com/watch?v=YoXbF1ufhXY)
+- [The Smiths](https://music.youtube.com/watch?v=9zNwZomsONA)
+- [The Doors](https://music.youtube.com/watch?v=lJZTgynPGT8)
+- [Joy Division](https://music.youtube.com/watch?v=5BIElTtN6Fs)
+- [New Order](https://music.youtube.com/watch?v=PDCeGZ3n8jY)
+- [Depeche Mode](https://music.youtube.com/watch?v=ojvldIzbaMo)
+- [LCD Soundsystem](https://music.youtube.com/watch?v=ETDCbQUYiAQ)
+- [Daft Punk](https://music.youtube.com/watch?v=_vOcbrUsmjM)
+- [Chase & Status](https://music.youtube.com/watch?v=8MfUnIvialU)
+- [Kraftwerk](https://music.youtube.com/watch?v=uNBGWenPlGo)
 
 ### :mag: Others
 

@@ -1,9 +1,12 @@
-GitHub:
+- id: GitHub
   href: https://github.com/gekkotadev
   icon: 
-Bluesky:
-  href: https://bsky.app/profile/gekkotadev.bsky.social
-  icon: 
-Email:
+- id: Matrix
+  href: https://matrix.to/#/@gekkotadev:matrix.org
+  icon: m
+- id: Email
   href: mailto:worried-never-blot@duck.com
   icon: 
+- id: Bluesky
+  href: https://bsky.app/profile/gekkotadev.bsky.social
+  icon: 
