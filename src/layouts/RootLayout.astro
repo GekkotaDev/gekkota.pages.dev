@@ -1,0 +1,39 @@
+---
+import "~/styles/global.css";
+
+interface Props {
+	class?: string;
+	title?: string | undefined;
+	description?: string | undefined;
+}
+
+const {
+	class: classname = "",
+	title = "gekkotadev",
+	description = "Jeremy's personal site.",
+} = Astro.props;
+---
+
+<html lang="en" data-webtui-theme="gruvbox-dark-soft">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" property="og:description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+
+		<meta property="og:title" content={title} />
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content={`${Astro.site}${Astro.url.pathname.substring(1)}`}
+		/>
+		<meta property="og:img" content="og/img/default.png" />
+
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+	</head>
+	<body class={`${classname}`}>
+		<slot />
+	</body>
+</html>

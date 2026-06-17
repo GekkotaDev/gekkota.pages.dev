@@ -1,0 +1,15 @@
+---
+import PageLayout from "~/layouts/PageLayout.astro";
+
+import { getCollection } from "astro:content";
+import { render } from "astro:content";
+
+const collections = await getCollection("about");
+const { Content } = await render(collections[0]);
+---
+
+<PageLayout class="flex min-h-screen flex-col">
+	<main is="view-content" class="space-y-[2ch] text-justify">
+		<Content />
+	</main>
+</PageLayout>

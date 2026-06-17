@@ -1,0 +1,86 @@
+# About me
+
+Hi! I'm Jeremy or known online as `@gekkotadev`. I was born on `2004` and you may refer to me with **he/him** pronouns.
+
+## Hobbies
+
+Outside of my academics, these are what keeps me enriched.
+
+### :video_game: Gaming
+
+I'd consider this to be some of the most formative experiences I've had and in part had helped shaped me into the person that I am today.
+
+- [Minecraft](https://www.minecraft.net/en-us)
+- [Portal 2](https://store.steampowered.com/app/620/Portal_2/)
+- [Rayman Legends](https://store.steampowered.com/app/242550/Rayman_Legends/)
+- [Forza Horizon](https://www.xbox.com/en-US/games/store/forza-horizon/bs9fslk6b1rr)
+- DiRT 3
+- Need For Speed Underground 2
+- [Need For Speed Most Wanted 2012](https://store.steampowered.com/app/1262560/Need_for_Speed_Most_Wanted/)
+
+### :computer: Programming
+
+Even when I'm on break, I do still enjoy the act of programming itself.
+
+You'll find me most often find me working on code in these languages [] [] [] while every now and then I'll use [] [] [].
+
+On the web you'll find me using [] [] [].
+
+### :musical_note: Music
+
+Admittedly, it's something I'm still trying to teach myself to be decent at. ~~What I've been using so far has been [Tracktion Waveform](https://www.tracktion.com/products/waveform-free)~~ I've lately returned to [LMMS](https://lmms.io/) in wanting to reduce dependency on proprietary software.
+
+I've been expressing interest in [Zrythm](https://www.zrythm.org/en/index.html) albeit at the time of writing is undergoing a rewrite.
+
+### :paintbrush: 2D & 3D Art
+
+As with music, I'm still trying to teach myself to be decent at 2D and 3D visual art. I use [Krita](https://krita.org/en/) and [Blender](https://www.blender.org/) as my programs of choice enjoying the comprehensive availability of resources and their open source nature.
+
+At times I do additional touch-up on my work with the use of software such as but not limited to [Figma](https://www.figma.com/) and [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve).
+
+## Interests
+
+There's more than just hobbies that I find enjoyment in.
+
+### :headphones: Bands I Listen To
+
+**Note**: _The links below open my respective song recommendation on YouTube Music._
+
+- [Queens of the Stone Age](https://music.youtube.com/watch?v=nzJ5BpWGJR0)
+- [Franz Ferdinand](https://music.youtube.com/watch?v=N8V4WOrs7WA)
+- [White Lies](https://music.youtube.com/watch?v=x6Z6eabeLio)
+- [Arctic Monkeys](https://music.youtube.com/watch?v=zMupng6KQeE)
+- [The Strokes](https://music.youtube.com/watch?v=YoXbF1ufhXY)
+- [The Smiths](https://music.youtube.com/watch?v=9zNwZomsONA)
+- [The Doors](https://music.youtube.com/watch?v=lJZTgynPGT8)
+- [Joy Division](https://music.youtube.com/watch?v=5BIElTtN6Fs)
+- [New Order](https://music.youtube.com/watch?v=PDCeGZ3n8jY)
+- [Depeche Mode](https://music.youtube.com/watch?v=ojvldIzbaMo)
+- [LCD Soundsystem](https://music.youtube.com/watch?v=ETDCbQUYiAQ)
+- [Daft Punk](https://music.youtube.com/watch?v=_vOcbrUsmjM)
+- [Chase & Status](https://music.youtube.com/watch?v=8MfUnIvialU)
+- [Kraftwerk](https://music.youtube.com/watch?v=uNBGWenPlGo)
+
+### :mag: Others
+
+- Cars
+- Motorcycles
+- Video Editing
+- Photo Editing
+- UI/UX Design
+
+<!-- Languages -->
+
+[]: https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html
+[]: https://learn.microsoft.com/en-us/dotnet/csharp/
+[]: https://www.typescriptlang.org
+[]: https://dart.dev/
+[]: https://rust-lang.org/
+[]: https://www.python.org/
+
+<!-- Frameworks -->
+
+[]: https://astro.build/
+[]: https://vuejs.org/
+[]: https://svelte.dev/
+[]: https://flutter.dev/

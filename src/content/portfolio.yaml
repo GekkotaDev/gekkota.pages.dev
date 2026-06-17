@@ -1,0 +1,39 @@
+site.gekkota.workers.dev:
+  name: 𓆈 gekkotadev
+  href: https://site.gekkota.workers.dev
+  description: My personal site you're viewing right now.
+
+codename_vista:
+  name: Codename Vista
+  href: https://github.com/GekkotaDev/codename-vista
+  description: Work In Progress thesis; team effort.
+
+graviteee:
+  name: GRAVIT-EEE!!!
+  href: https://github.com/GekkotaDev/activity-nanojam
+  description: Output for class subject game jam in less than 12 hours.
+
+battle_city_clone:
+  name: Battle City Clone
+  href: https://github.com/GekkotaDev/game-programming-battle-city-clone
+  description: Battle City clone for Introduction to Game Programming subject.
+
+sierra_verde:
+  name: Sierra Verde
+  href: https://github.com/GekkotaDev/sierra-verde
+  description: Driving game, shelved.
+
+ggt:
+  name: Godot Game Template
+  href: https://github.com/GekkotaDev/ggt
+  description: Game template. There are many like it, but this one is mine.
+
+presentations:
+  name: Presentations
+  href: about:blank
+  description: (WIP) Slidev presentations; currently in the process of migrating to a monorepo.
+
+reggie:
+  name: Reggie
+  href: https://github.com/GekkotaDev/reggie
+  description: Regex tester + compiler to CFG, DFA, and PDA with step by step simulation.
